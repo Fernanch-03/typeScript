@@ -16,6 +16,27 @@ namespace empresa{
 
         set credito(credito:number){
             this._credito = credito;
-        }        
+        }
+        public comprar(valorProduto:number, desconto?:number){
+            let result:string;
+
+            if(typeof desconto === undefined){
+
+                if(valorProduto <= this._credito){
+                    result = "compra autorizada";
+                }else{
+                    result = "Compra negada";
+                }
+                return result;
+            }else{
+                if(valorProduto - desconto <= this._credito){
+                    result = "compra autorizada";
+                }else{
+                    result = "Compra negada";
+                }
+                 return result;
+                
+            }
+        } 
     }
 }
