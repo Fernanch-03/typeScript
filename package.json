@@ -1,0 +1,24 @@
+{
+  "name": "typeScript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fernanch-03/typeScript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Fernanch-03/typeScript/issues"
+  },
+  "homepage": "https://github.com/Fernanch-03/typeScript#readme",
+  "dependencies": {
+    "bootstrap": "^4.5.2",
+    "live-server": "^1.2.1"
+  }
+}
